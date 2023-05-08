@@ -1,6 +1,5 @@
-# Bernido, Charles David P. | BSCPE 1-5
-# Assignment 5 
-
+# Bernido, Charles David P. | BSCPE 1-5 | 05/08/2023
+# Assignment 5: Create a Simple App Calculator
 
 # Import the required libraries
 from tkinter import *
@@ -50,7 +49,7 @@ def clear_textbox():
     num2.delete(0,END)
 
 def exit_button():
-    messagebox.askquestion("askquestion", "Are you sure?")
+    messagebox.askquestion("Exit Program", "Are you sure?")
     window.quit()
 
 window = Tk()  # Create an instance of tkinter frame or window
