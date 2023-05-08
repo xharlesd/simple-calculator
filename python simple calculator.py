@@ -33,6 +33,8 @@ num1 = Entry(window)
 num1.grid(row = 0, column = 2)
 
 # Create a label for second number
+label2 = Label(window, text = "Second Number: ")
+
 # Create a textbox for second number
 
 # Create label for Result
@@ -45,3 +47,4 @@ num1.grid(row = 0, column = 2)
 # Create an exit button
 
 # mainloop
+window.mainloop()
