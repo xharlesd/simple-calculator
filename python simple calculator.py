@@ -45,12 +45,13 @@ def clear_textbox():
     num1.delete(0,END)
     num2.delete(0,END)
 
+
 window = Tk()  # Create an instance of tkinter frame or window
 window.title("Python Simple Calculator")  # Title of the Window
 window.config(bg = "#D8F9FF")
 
 # Create a label for first number
-label1 = Label(window, text = "1st Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45")
+label1 = Label(window, text = "1st Number: ", font=("Calibri",16,"bold"), bg = "#D8F9FF", fg = "#0B0B45")
 label1.grid(row = 0, column = 1, padx = 10, pady = 10)
 
 # Create a textbox for first number
@@ -58,7 +59,7 @@ num1 = Entry(window, font=("Arial",13), fg = "#0B0B45", justify = CENTER)
 num1.grid(row = 0, column = 2)
 
 # Create a label for second number
-label2 = Label(window, text = "2nd Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45")
+label2 = Label(window, text = "2nd Number: ", font=("Calibri",16,"bold"), bg = "#D8F9FF", fg = "#0B0B45")
 label2.grid(row = 1, column = 1, padx = 10)
 
 # Create a textbox for second number
@@ -90,12 +91,12 @@ button4 = Button(window, text = "Divide", width = 10, font=("Georgia",13,"bold")
 button4.grid(row = 4, column = 2, padx = 5, pady = 5)
 
 # Create a button for clearing the content of textbox 1 and textbox 2
-button5 = Button(window, text = "Clear", width = 10, command = clear_textbox)
-button5.grid(row = 5, column = 1, padx = 5, pady = 5)
+button5 = Button(window, text = "Clear", width = 10, font=("Calibri",12,"bold"), bg = "#90EE90", command = clear_textbox)
+button5.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # Create an exit button
-button6 = Button(window, text = "Exit", width = 10, command = lambda: window.quit())
-button6.grid(row = 5, column = 2, padx = 5, pady = 5)
+button6 = Button(window, text = "Exit", width = 10, font=("Calibri",12,"bold"), bg = "#90EE90", command = lambda: window.quit())
+button6.grid(row = 5, column = 2, padx = 5, pady = 20)
 
 # mainloop
 window.mainloop()
