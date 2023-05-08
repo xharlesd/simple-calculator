@@ -79,6 +79,9 @@ button2 = Button(window, text = "Subtract", width = 10, command = subtract_numbe
 button2.grid(row = 3, column = 2, padx = 5, pady = 5)
 
 # Create a button for multiplication of first and second number
+button3 = Button(window, text = "Multiply", width = 10, command = multiply_numbers)
+button3.grid(row = 4, column = 1, padx = 5, pady = 5)
+
 # Create a button for division of first and second number
 # Create a button for clearing the content of textbox 1 and textbox 2
 # Create an exit button
