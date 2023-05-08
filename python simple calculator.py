@@ -75,6 +75,9 @@ button1 = Button(window, text = "Add", width = 10, command = add_numbers)
 button1.grid(row = 3, column = 1, padx = 5, pady = 5)
 
 # Create a button for subtraction of first and second number
+button2 = Button(window, text = "Subtract", width = 10, command = subtract_numbers)
+button2.grid(row = 3, column = 2, padx = 5, pady = 5)
+
 # Create a button for multiplication of first and second number
 # Create a button for division of first and second number
 # Create a button for clearing the content of textbox 1 and textbox 2
