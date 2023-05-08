@@ -4,10 +4,11 @@ from tkinter import messagebox
 
 # Define a function to add numbers
 def add_numbers():
-    # try
-    result = float(num1.get()) + float(num2.get())
-    # catch
-
+    try:  
+        result = float(num1.get()) + float(num2.get())
+        result = round(result, 4)
+    except:  
+        """"""
 # Define a function to subtract numbers
     # try
     # catch
