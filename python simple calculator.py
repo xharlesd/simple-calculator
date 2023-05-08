@@ -41,7 +41,9 @@ num2 = Entry(window)
 num2.grid(row = 1, column = 2)
 
 # Create label for Result
-
+label3 = Label(window, text = "Result: ")
+label3.grid(row = 2, column = 1)
+               
 # Create a button for addition of first and second number
 # Create a button for subtraction of first and second number
 # Create a button for multiplication of first and second number
