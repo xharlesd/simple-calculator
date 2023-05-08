@@ -14,7 +14,9 @@ def add_numbers():
 # Define a function to subtract numbers
 def subtract_numbers():
     try:
-        """"""
+        result = float(num1.get()) - float(num2.get())
+        result = round(result, 4)
+        label4.config(text = result)
     except:
         """"""
 
