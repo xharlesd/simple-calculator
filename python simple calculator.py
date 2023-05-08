@@ -41,7 +41,9 @@ def division_numbers():
         messagebox.showerror('Error Encountered', 'Error: Please enter a valid input!')
 
 # Define a function to clear the content of textbox 1 and textbox 2
-
+def clear_textbox():
+    num1.delete(0,END)
+    num2.delete(0,END)
 
 window = Tk()  # Create an instance of tkinter frame or window
 window.title("Python Simple Calculator")  # Title of the Window
