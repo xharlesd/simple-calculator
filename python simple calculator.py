@@ -25,6 +25,9 @@ window = Tk()  # Create an instance of tkinter frame or window
 window.title("Python Simple Calculator")  # Title of the Window
 
 # Create a label for first number
+label1 = Label(window, text = "First Number: ")
+label1.grid(row = 0, column = 1)
+
 # Create a textbox for first number
 
 # Create a label for second number
