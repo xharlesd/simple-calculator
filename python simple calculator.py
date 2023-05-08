@@ -1,3 +1,7 @@
+# Bernido, Charles David P. | BSCPE 1-5
+# Assignment 5 
+
+
 # Import the required libraries
 from tkinter import *
 from tkinter import messagebox
@@ -45,6 +49,9 @@ def clear_textbox():
     num1.delete(0,END)
     num2.delete(0,END)
 
+def exit_button():
+    messagebox.askquestion("askquestion", "Are you sure?")
+    window.quit()
 
 window = Tk()  # Create an instance of tkinter frame or window
 window.title("Python Simple Calculator")  # Title of the Window
@@ -95,7 +102,7 @@ button5 = Button(window, text = "Clear", width = 10, font=("Calibri",12,"bold"),
 button5.grid(row = 5, column = 1, padx = 5, pady = 20)
 
 # Create an exit button
-button6 = Button(window, text = "Exit", width = 10, font=("Calibri",12,"bold"), bg = "#90EE90", command = lambda: window.quit())
+button6 = Button(window, text = "Exit", width = 10, font=("Calibri",12,"bold"), bg = "#90EE90", command = exit_button)
 button6.grid(row = 5, column = 2, padx = 5, pady = 20)
 
 # mainloop
