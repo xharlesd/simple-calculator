@@ -29,6 +29,8 @@ label1 = Label(window, text = "First Number: ")
 label1.grid(row = 0, column = 1)
 
 # Create a textbox for first number
+num1 = Entry(window)
+num1.grid(row = 0, column = 2)
 
 # Create a label for second number
 # Create a textbox for second number
