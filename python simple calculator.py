@@ -50,43 +50,43 @@ window.title("Python Simple Calculator")  # Title of the Window
 window.config(bg = "#D8F9FF")
 
 # Create a label for first number
-label1 = Label(window, text = "1st Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45", padx = 10, pady = 10)
-label1.grid(row = 0, column = 1)
+label1 = Label(window, text = "1st Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45")
+label1.grid(row = 0, column = 1, padx = 10, pady = 10)
 
 # Create a textbox for first number
 num1 = Entry(window, font=("Arial",13), fg = "#0B0B45", justify = CENTER)
 num1.grid(row = 0, column = 2)
 
 # Create a label for second number
-label2 = Label(window, text = "2nd Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45", padx = 10, pady = 1)
-label2.grid(row = 1, column = 1)
+label2 = Label(window, text = "2nd Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45")
+label2.grid(row = 1, column = 1, padx = 10)
 
 # Create a textbox for second number
 num2 = Entry(window, font=("Arial",13), fg = "#0B0B45", justify = CENTER)
 num2.grid(row = 1, column = 2)
 
 # Create label for Result
-label3 = Label(window, text = "Result: ")
-label3.grid(row = 2, column = 1)
+label3 = Label(window, text = "Result: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45")
+label3.grid(row = 2, column = 1, padx = 10, pady = 10)
 
 # Display result
-label4 = Label(window, text = "")
+label4 = Label(window, text = "", font=("Arial",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45", justify = CENTER)
 label4.grid(row = 2, column = 2)
                
 # Create a button for addition of first and second number
-button1 = Button(window, text = "Add", width = 10, command = add_numbers)
-button1.grid(row = 3, column = 1, padx = 5, pady = 5)
+button1 = Button(window, text = "Add", width = 10, font=("Georgia",13,"bold"), bg = "#ffffe0", command = add_numbers)
+button1.grid(row = 3, column = 1, padx = 15, pady = 5)
 
 # Create a button for subtraction of first and second number
-button2 = Button(window, text = "Subtract", width = 10, command = subtract_numbers)
+button2 = Button(window, text = "Subtract", width = 10, font=("Georgia",13,"bold"), bg = "#ffffe0", command = subtract_numbers)
 button2.grid(row = 3, column = 2, padx = 5, pady = 5)
 
 # Create a button for multiplication of first and second number
-button3 = Button(window, text = "Multiply", width = 10, command = multiply_numbers)
+button3 = Button(window, text = "Multiply", width = 10, font=("Georgia",13,"bold"), bg = "#ffffe0", command = multiply_numbers)
 button3.grid(row = 4, column = 1, padx = 5, pady = 5)
 
 # Create a button for division of first and second number
-button4 = Button(window, text = "Divide", width = 10, command = division_numbers)
+button4 = Button(window, text = "Divide", width = 10, font=("Georgia",13,"bold"), bg = "#ffffe0", command = division_numbers)
 button4.grid(row = 4, column = 2, padx = 5, pady = 5)
 
 # Create a button for clearing the content of textbox 1 and textbox 2
