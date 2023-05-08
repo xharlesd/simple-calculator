@@ -22,6 +22,8 @@ from tkinter import messagebox
 
 
 # Create an instance of tkinter frame or window
+window = Tk()
+
 # Title of the Window
 
 # Create a label for first number
