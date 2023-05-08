@@ -23,7 +23,9 @@ def subtract_numbers():
 # Define a function to multiply numbers
 def multiply_numbers():
     try: 
-        """"""
+        result = float(num1.get()) * float(num2.get())
+        result = round(result, 4)
+        label4.config(text=result)
     except:
         """"""
 
