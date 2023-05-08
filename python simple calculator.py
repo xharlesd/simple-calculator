@@ -21,8 +21,11 @@ def subtract_numbers():
         messagebox.showerror('Error Encountered', 'Error: Please enter a valid input!')
 
 # Define a function to multiply numbers
-    # try
-    # catch
+def multiply_numbers():
+    try: 
+        """"""
+    except:
+        """"""
 
 # Define a function to divide numbers
     # try
