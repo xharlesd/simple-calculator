@@ -89,6 +89,9 @@ button4 = Button(window, text = "Divide", width = 10, command = division_numbers
 button4.grid(row = 4, column = 2, padx = 5, pady = 5)
 
 # Create a button for clearing the content of textbox 1 and textbox 2
+button5 = Button(window, text = "Clear", width = 10, command = clear_textbox)
+button5.grid(row = 5, column = 1, padx = 5, pady = 5)
+
 # Create an exit button
 
 # mainloop
