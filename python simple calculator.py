@@ -71,6 +71,9 @@ label4 = Label(window, text = "")
 label4.grid(row = 2, column = 2)
                
 # Create a button for addition of first and second number
+button1 = Button(window, text = "Add", width = 10, command = add_numbers)
+button1.grid(row = 3, column = 1, padx = 5, pady = 5)
+
 # Create a button for subtraction of first and second number
 # Create a button for multiplication of first and second number
 # Create a button for division of first and second number
