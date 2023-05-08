@@ -9,7 +9,7 @@ def add_numbers():
         result = round(result, 4)
         label4.config(text = result)
     except:  
-        """"""
+        messagebox.showerror('Error Encountered', 'Error: Please enter a valid input!')
 # Define a function to subtract numbers
     # try
     # catch
