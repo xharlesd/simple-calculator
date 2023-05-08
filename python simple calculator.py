@@ -30,8 +30,11 @@ def multiply_numbers():
         messagebox.showerror('Error Encountered', 'Error: Please enter a valid input!')
 
 # Define a function to divide numbers
-    # try
-    # catch
+def division_numbers():
+    try:
+        """"""
+    except:
+        """"""
 
 # Define a function to clear the content of textbox 1 and textbox 2
 
