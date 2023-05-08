@@ -21,10 +21,8 @@ from tkinter import messagebox
 # Define a function to clear the content of textbox 1 and textbox 2
 
 
-# Create an instance of tkinter frame or window
-window = Tk()
-
-# Title of the Window
+window = Tk()  # Create an instance of tkinter frame or window
+window.title("Python Simple Calculator")  # Title of the Window
 
 # Create a label for first number
 # Create a textbox for first number
