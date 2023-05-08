@@ -35,8 +35,10 @@ def division_numbers():
         result = float(num1.get()) / float(num2.get())
         result = round(result, 4)
         label4.config(text = result)
+    except ZeroDivisionError:
+        messagebox.showerror('Error Encountered', 'Error: Dividing by zero is not allowed!')
     except:
-        """"""
+        messagebox.showerror('Error Encountered', 'Error: Please enter a valid input!')
 
 # Define a function to clear the content of textbox 1 and textbox 2
 
