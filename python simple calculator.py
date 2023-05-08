@@ -93,6 +93,8 @@ button5 = Button(window, text = "Clear", width = 10, command = clear_textbox)
 button5.grid(row = 5, column = 1, padx = 5, pady = 5)
 
 # Create an exit button
+button6 = Button(window, text = "Exit", width = 10, command = lambda: window.quit())
+button6.grid(row = 5, column = 2, padx = 5, pady = 5)
 
 # mainloop
 window.mainloop()
