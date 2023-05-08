@@ -37,6 +37,8 @@ label2 = Label(window, text = "Second Number: ")
 label2.grid(row = 1, column = 1)
 
 # Create a textbox for second number
+num2 = Entry(window)
+num2.grid(row = 1, column = 2)
 
 # Create label for Result
 
