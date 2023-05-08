@@ -10,9 +10,13 @@ def add_numbers():
         label4.config(text = result)
     except:  
         messagebox.showerror('Error Encountered', 'Error: Please enter a valid input!')
+
 # Define a function to subtract numbers
-    # try
-    # catch
+def subtract_numbers():
+    try:
+        """"""
+    except:
+        """"""
 
 # Define a function to multiply numbers
     # try
