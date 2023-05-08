@@ -34,6 +34,7 @@ num1.grid(row = 0, column = 2)
 
 # Create a label for second number
 label2 = Label(window, text = "Second Number: ")
+label2.grid(row = 1, column = 1)
 
 # Create a textbox for second number
 
