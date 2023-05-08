@@ -11,6 +11,6 @@ Create a Simple App Calculator
 7. Use Python Function and appropriate Exceptions to capture errors during   
     runtime.
     
-Instruction:
+To run the program,
 1. Open the python file
 2. Run the program
