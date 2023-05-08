@@ -47,21 +47,22 @@ def clear_textbox():
 
 window = Tk()  # Create an instance of tkinter frame or window
 window.title("Python Simple Calculator")  # Title of the Window
+window.config(bg = "#D8F9FF")
 
 # Create a label for first number
-label1 = Label(window, text = "First Number: ")
+label1 = Label(window, text = "1st Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45", padx = 10, pady = 10)
 label1.grid(row = 0, column = 1)
 
 # Create a textbox for first number
-num1 = Entry(window)
+num1 = Entry(window, font=("Arial",13), fg = "#0B0B45", justify = CENTER)
 num1.grid(row = 0, column = 2)
 
 # Create a label for second number
-label2 = Label(window, text = "Second Number: ")
+label2 = Label(window, text = "2nd Number: ", font=("Helvetica",14,"bold"), bg = "#D8F9FF", fg = "#0B0B45", padx = 10, pady = 1)
 label2.grid(row = 1, column = 1)
 
 # Create a textbox for second number
-num2 = Entry(window)
+num2 = Entry(window, font=("Arial",13), fg = "#0B0B45", justify = CENTER)
 num2.grid(row = 1, column = 2)
 
 # Create label for Result
